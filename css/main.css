@@ -111,35 +111,73 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header, footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.2em;
   display: flex;
   justify-content: center;
-  width: 30%;
   align-items: center;
-  padding: 0 0.5em;
+  width: 30%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+/*--- Style the Header ---*/
+header h1 {
+  font-size: 3.5em;
+  color: #fff;
+}
+
+/*--- Style the Main section --*/
+main p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+main span {
+  font-family: 'Lora', serif;
+}
+
+/*---Style the 3 Widget columns---*/
 .div-2 {
   border-left: solid 1px grey;
   border-right: solid 1px grey;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .div-1 p, .div-2 p, .div-3 p {
-  font-size: 0.75em;
-  line-height: 1.4;
-  font-weight: normal;
+  font-size: 1em;
 }
 
-
+/*--- Style the Footer --*/
+i {
+  color: #fff;
+  padding-right: 1em;
+  font-size: 1em;
+}
 
 
 /* ==========================================================================
