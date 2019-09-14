@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: black;
 }
 
 .wrapper {
@@ -120,12 +121,22 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
   display: flex;
   justify-content: center;
   width: 30%;
   align-items: center;
+  padding: 0 0.5em;
+}
+
+.div-2 {
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
+}
+
+.div-1 p, .div-2 p, .div-3 p {
+  font-size: 0.75em;
+  line-height: 1.4;
+  font-weight: normal;
 }
 
 
